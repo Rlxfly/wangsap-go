@@ -1,16 +1,16 @@
-# go-whatsapp
-Package rhymen/go-whatsapp implements the WhatsApp Web API to provide a clean interface for developers. Big thanks to all contributors of the [sigalor/whatsapp-web-reveng](https://github.com/sigalor/whatsapp-web-reveng) project. The official WhatsApp Business API was released in August 2018. You can check it out [here](https://www.whatsapp.com/business/api).
+# wangsap-go
+Package Rlxfly/wangsap-go implements the WhatsApp Web API to provide a clean interface for developers. Big thanks to all contributors of the [sigalor/whatsapp-web-reveng](https://github.com/sigalor/whatsapp-web-reveng) project. The official WhatsApp Business API was released in August 2018. You can check it out [here](https://www.whatsapp.com/business/api).
 
 ## Installation
 ```sh
-go get github.com/Rhymen/go-whatsapp
+go get github.com/Rlxfly/wangsap-go
 ```
 
 ## Usage
 ### Creating a connection
 ```go
 import (
-    whatsapp "github.com/Rhymen/go-whatsapp"
+    whatsapp "github.com/Rlxfly/wangsap-go"
 )
 
 wac, err := whatsapp.NewConn(20 * time.Second)
